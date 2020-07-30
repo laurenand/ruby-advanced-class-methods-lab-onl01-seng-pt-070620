@@ -39,7 +39,7 @@ class Song
     #song.artist_name = artist_name
     new_file = filename.split(" - ")
     artist_name = new_file[0]
-    song_name = new_file[1]
+    song_name = new_file[1].gsub(".mp3")
     
   end 
 end
